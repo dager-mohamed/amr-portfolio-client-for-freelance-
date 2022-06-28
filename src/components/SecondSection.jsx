@@ -9,7 +9,7 @@ export function SecondSection() {
           <h1> VIDEO EDITING AND CREATION MADE EASY WITH CREATIVE STUDIO</h1>
         </div>
         <div className="video-sec">
-          <a target="_blank">
+          <a>
             <video
               className="video"
               autoPlay={true}
