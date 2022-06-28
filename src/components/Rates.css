@@ -1,0 +1,92 @@
+.rates-main{
+    background-color:#03192e;
+    height: 740px;
+    color: white;
+}
+.rates-main-c{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+
+}
+
+.rates-main-c h1{
+    position: absolute;
+    font-size: 38px;
+}
+
+.card-rate{
+    margin-top: 100px;
+    background-color: #05213a;
+    width: 100%;
+
+    max-width: 350px;
+    padding: 37px 30px 30px;
+    height: 310px;
+    border-radius: 5px;
+}
+.card-rate-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote-rate span{
+    
+        width: 41px;
+        height: 32px;
+        margin: auto;
+        display: inline-block;
+        background: url('https://www.flexclip.com/media/pages/images/home/quot.svg?v=1.1') center center no-repeat;
+        background-size: cover;
+    
+}
+.quote-rate{
+    display: flex;
+   padding-bottom: 59px;
+    position: relative;
+    flex-direction: column;
+}
+.words-rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    cursor: default;
+    user-select: none;
+    text-align: center;
+}
+.avatar-rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 30px;
+}
+.avatar-rate img{
+    width: 60px;
+    border-radius: 50px;
+    pointer-events: none;
+    user-select: none;
+}
+.avatar-rate span{
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-weight: 600;
+    pointer-events: none;
+    cursor: default;
+    user-select: none;
+}
+.avatar-rate p{
+        height: 16px;
+        width: 117px;
+        margin: auto;
+        background: url('https://www.flexclip.com/media/pages/images/home/star.svg?v=1.2') center center no-repeat;
+        margin-top: 7px;
+    
+}
+.swiper{
+    padding-left: 30px !important;
+}

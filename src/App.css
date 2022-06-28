@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300;400;500;600;700&display=swap');
+html, body {
+  position:relative;
+  overflow-x:hidden;
+}
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Rubik', sans-serif;
+}
+.h{
+  background-color: white;
+}
+.bg-img-home{
+  height: 750px;
+}
+@media screen and (max-width: 1200px){
+  .bg-img-home{
+    height: 1200px;
+  }
+}
