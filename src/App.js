@@ -5,6 +5,7 @@ import { Navbar } from './components/Navbar';
 import { SecondSection } from './components/SecondSection';
 import background from './background.jpg'
 import { RatePage } from './components/Rates';
+import { ContactPage } from './components/Contact';
 function App() {
   return (
     <div>
@@ -24,6 +25,9 @@ function App() {
       </div>
       <div>
         <RatePage/>
+      </div>
+      <div id="contact">
+        <ContactPage/>
       </div>
     </div>
   );

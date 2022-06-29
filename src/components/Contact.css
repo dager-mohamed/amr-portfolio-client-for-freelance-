@@ -1,0 +1,80 @@
+.contact-main .contact-main-c .photo img{
+    width: 300px;
+
+    border-radius: 8px;
+}
+.contact-main{
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-main .contact-main-c{
+    width: 1122px;
+    height: 330px;
+    background: url('https://www.flexclip.com/media/pages/images/home/started-bg.svg?v=1.2') center center no-repeat;
+    border-radius: 12px;
+    background-color: #ff8b3c;
+    display: flex;
+    
+    flex-direction: row;
+}
+.contact-main .contact-main-c .photo{
+    padding-right: 420px;
+    position: relative;
+    left: 130px;
+    
+    margin-top: 70px;
+}
+.contact-main .contact-main-c .texts{
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    left: -140px;
+}
+.contact-main .contact-main-c .texts .p-text{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    height: 80px;
+    color: #fff;
+}
+.contact-main .contact-main-c .texts .btns{
+    display: flex;
+    flex-direction: row;
+    
+}
+.contact-main .contact-main-c .texts .btns button{
+    width: 200px;
+    height: 56px;
+    border-radius: 28px;
+    border: 1px solid #ff822c;
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+   
+    font-weight: 500;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    transition: all .3s;
+}
+.contact-main .contact-main-c .texts .btns button:hover{
+    transform: scale(1.11);
+}
+.contact-main .contact-main-c .texts .btns button:active{
+    transform: scale(1);
+}
+.contact-main .contact-main-c .texts .btns .btn-1{
+    right: 20px;
+}
+.contact-main .contact-main-c .photo::-webkit-scrollbar{
+    display: none;
+}

@@ -24,7 +24,7 @@ export function Navbar(){
             <div onClick={() => window.location.href=`${window.location.origin}/#rates`} className="div-item">
                 <span>Feedbacks</span>
             </div>
-            <div className="div-item-btn">
+            <div onClick={() => window.location.href=`${window.location.origin}/#contact`} className="div-item-btn">
                 <button>Contact</button>
             </div>
             </div>
