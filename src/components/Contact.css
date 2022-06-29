@@ -39,13 +39,14 @@
     color: white;
     font-size: 36px;
     font-weight: 700;
-    height: 120px;
+    height: 80px;
     color: #fff;
 }
 .contact-main .contact-main-c .texts .btns{
     display: flex;
     flex-direction: row;
-    
+    position: relative;
+    left: 10px;
 }
 .contact-main .contact-main-c .texts .btns button{
     width: 200px;
