@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../LOGO.png";
 import "./SecondSection.css";
+import video from '../WEBSITE-AD.mp4'
 export function SecondSection() {
   return (
     <div id="services" className="sec-section">
@@ -13,14 +14,14 @@ export function SecondSection() {
             <video
               className="video"
               autoPlay={true}
-             poster={"//cdn.veed.io/render/0fe7a7fb-588f-4655-be03-0d21ab5a98e2.mp4#t=0.001"}
+             poster={video}
               lt="best video editor"
               width="801"
               height="440"
               muted={true}
               loop={true}
             >
-              <source  src={"//cdn.veed.io/render/0fe7a7fb-588f-4655-be03-0d21ab5a98e2.mp4#t=0.001"} type="video/mp4" />
+              <source  src={video} type="video/mp4" />
             </video>
           </a>
         </div>
