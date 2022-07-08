@@ -13,14 +13,14 @@ export function SecondSection() {
             <video
               className="video"
               autoPlay={true}
-             poster={"https://cdn.veed.io/render/0fe7a7fb-588f-4655-be03-0d21ab5a98e2.mp4#t=0.001"}
+             poster={"//cdn.veed.io/render/0fe7a7fb-588f-4655-be03-0d21ab5a98e2.mp4#t=0.001"}
               lt="best video editor"
               width="801"
               height="440"
               muted={true}
               loop={true}
             >
-              <source  src={"https://cdn.veed.io/render/0fe7a7fb-588f-4655-be03-0d21ab5a98e2.mp4#t=0.001"} type="video/mp4" />
+              <source  src={"//cdn.veed.io/render/0fe7a7fb-588f-4655-be03-0d21ab5a98e2.mp4#t=0.001"} type="video/mp4" />
             </video>
           </a>
         </div>
